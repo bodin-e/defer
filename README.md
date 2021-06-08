@@ -145,7 +145,7 @@ Due to the piece-wise constant approximation being used, this simply corresponds
 
 
 ```python
-diff_entropy = approx_joint.expectation(lambda f, x, z: -np.log(f / z))
+differential_entropy = approx_joint.expectation(lambda f, x, z: -np.log(f / z))
 ```
 
 A few, very common such expectations are provided as methods (such as mean and variance), which are internally using the 'expectation' method.
