@@ -1,0 +1,11 @@
+numpy==1.19.5
+scipy==1.4.1
+scikit-spatial==5.0.0
+xxhash==1.4.3
+sobol-seq==0.1.2
+
+# Used in examples only
+# bilby==0.6.5
+# tensorflow==2.1.0
+# tensorflow-probability==0.8.0
+# corner==2.0.1
